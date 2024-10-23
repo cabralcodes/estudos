@@ -1,0 +1,6 @@
+{
+    "git.allowForcePush": true,
+    "git.allowNoVerifyCommit": true,
+    "git.autoStash": false,
+    "references.preferredLocation": "view"
+}

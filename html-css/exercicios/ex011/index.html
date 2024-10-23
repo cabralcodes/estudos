@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente  aumente e diminua  o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imgagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imgagem/foto-m.png" type="image/png">
+        <img src="imgagem/foto-g.png" alt=" foto grande para pc">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio preload="metadata" controls>
+    <source src="midia/Toque Carinhoso. 💞 (256).mp3" type="audio/ogg">
+    <source src="midia/Toque Carinhoso. 💞 (256).mp3" type="audio/ogg">
+    <source src="midia/Toque Carinhoso. 💞 (256).mp3">
+    <p>infelizmente seu navegador não consegue reproduzir o áudio.Clique aki para baixar <a href="midia/Toque Carinhoso. 💞 (256).mp3">o áudio em MP3</a></p>
+    </audio>
+ 
+
+</body>
+</html>
