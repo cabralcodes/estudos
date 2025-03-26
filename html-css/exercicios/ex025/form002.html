@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste De Formulário</h1>
+    <form autocomplete="on" action="cad.php" method="post">
+        <div>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="6" maxlength="15"  
+            size="13" placeholder="usuário" autocomplete="username">
+            
+            
+        </div>
+
+        <div>
+            
+            <label for="isen">Senha<label>
+           <input type="password" name="senha" id="isen" required minlength="8" maxlength="14" autocomplete="new-password">
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+            
+        </div>
+    </form>
+</body>
+</html>
