@@ -105,6 +105,7 @@ nav > a {
     
 }
 
+
 nav > a:hover {
     background-color: var(--cor3) ;
     color: var(--cor4);
