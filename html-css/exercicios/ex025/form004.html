@@ -6,17 +6,25 @@
     <title>Formulário</title>
 </head>
 <body>
-  <h1>Exemplo de Formulário</h1>  
+  <h1>Exemplo de Formulário</h1>
+
   <form action="cad.php" method="get">
-    <label for="iemail">E-mail</label>
-    <input type="email" name="email" id="iemail">
-    <label for="itel">Telefone</label>
-    <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^[0-9]-{4}-[0-9]-{4}$">
-    <!-- estudar sobre RegEx  -->
-    <p>
-        <input type="submit" value="Enviar">
-         <input type="reset" value="Limpar">
-    </p>
+    <legend>Dados Pessoais</legend>
+    <fieldset>
+      <p>
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome" minlength="6" maxlength="20" required>
+      </p>
+      <label for="iemail">E-mail</label>
+      <input type="email" name="email" id="iemail">
+      <label for="itel">Telefone</label>
+      <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4-5}-\d{4}$" placeholder="(xx) xxxx-xxxx">
+      <!-- estudar sobre RegEx  -->
+      <p>
+          <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+      </p>
+    </fieldset>
   </form>
 </body>
 </html>
